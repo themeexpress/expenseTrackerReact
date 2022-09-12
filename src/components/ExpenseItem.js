@@ -5,7 +5,6 @@ function ExpenseItem(props) {
   return (
     <div className="expense-item">
       <div>
-        date
         <ExpenseDate date={props.date}></ExpenseDate>
       </div>
       
